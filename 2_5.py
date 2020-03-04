@@ -13,4 +13,5 @@ print(name)
 print(age)
 #по мимо основного задания, мы немного усложним:
 print(name + " " + age)
-#print("My name is"name + "and me"{age})
+print("My name is {} and me {}".format(name, age)) #применение функции формат
+print(f"My name is {name} and I'm {age}") #применение интерполяции
